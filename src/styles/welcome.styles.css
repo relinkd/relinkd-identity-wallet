@@ -1,0 +1,73 @@
+.welcome-step1 {
+    padding: 5rem 2.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome-step1 h3, .welcome-step2 h3 {
+    font-size: 28px;
+}
+
+.welcome-step1 p {
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.welcome-step1 img {
+    width: 60px;
+    height: 60px;
+}
+
+.welcome-step2,
+.welcome-step3 {
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.welcome-step2 img,
+.welcome-step3 img {
+    width: 50px;
+}
+
+.welcome-step2 .block-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.welcome-step2 .block-wrap .section{
+    padding: 0.5rem;
+    width: 155px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.welcome-step2 .block-wrap .section:hover {
+    border: 1px solid #7D85FF;
+}
+
+.welcome-step2 .block-wrap .section p {
+    padding-bottom: 20px;
+}
+.welcome-step3 .MuiTextField-root.pas-input {
+    margin-bottom: 20px;
+    background: #F5F6FA!important;
+    border-bottom: #F5F6FA 4px solid;
+    border-radius: 5px;
+}
+
+.welcome-step3 .MuiTextField-root.pas-input fieldset {
+    border: none
+}
+
+
+.welcome-step3 .MuiTextField-root.pas-input:hover {
+    border-bottom: #7D85FF 4px solid;
+}
+
